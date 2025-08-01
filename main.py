@@ -52,7 +52,7 @@ if price_as_float < BUY_PRICE:
     SMTP_PORT = os.environ["SMTP_PORT"]
     MY_EMAIL = os.environ["EMAIL_ADDRESS"]
     MY_PASSWORD = os.environ["EMAIL_PASSWORD"]
-    TO_EMAIL = "leraymando@gmail.com"
+    TO_EMAIL = "email@gmail.com"
     
     subject = "Amazon Price Alert"
     message = f"{product_title} is on sale for {price_as_float}"
